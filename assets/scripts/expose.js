@@ -66,14 +66,18 @@ function changeVolume() {
 
   if (volume === 0) {
     icon.src = 'assets/icons/volume-level-0.svg';
+    icon.alt = 'Volume level 0';
   }
   else if (volume < 33) {
     icon.src = 'assets/icons/volume-level-1.svg';
+    icon.alt = 'Volume level 1';
   }
   else if (volume < 67) {
     icon.src = 'assets/icons/volume-level-2.svg';
+    icon.alt = 'Volume level 2';
   }
   else {
     icon.src = 'assets/icons/volume-level-3.svg';
+    icon.alt = 'Volume level 3';
   }
 }
