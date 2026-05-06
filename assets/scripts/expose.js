@@ -61,7 +61,7 @@ function playSound() {
 function changeVolume() {
   const audio = document.querySelector('audio');
   const icon = document.querySelector('#volume-controls img');
-  const volume = document.getElementById('volume').value;
+  const volume = Number(document.getElementById('volume').value);
   audio.volume = volume / 100; //the volume property sets the volume as a value between 0 and 1
 
   if (volume === 0) {
