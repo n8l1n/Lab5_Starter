@@ -22,7 +22,7 @@ test('Invalid Phone Number 1', () => {
 });
 
 test('Invalid Phone Number 2', () => {
-    expect(isPhoneNumber('(123)456-7890')).toBe(false);
+    expect(isPhoneNumber('(123)4567-890')).toBe(false);
 });
 
 test('Valid Email 1', () => {
@@ -70,7 +70,7 @@ test('Invalid Date 1', () => {
 });
 
 test('Invalid Date 2', () => {
-    expect(isDate('31/12/2000')).toBe(false);
+    expect(isDate('12-31-2000')).toBe(false);
 });
 
 test('Valid Hex Color 1', () => {
