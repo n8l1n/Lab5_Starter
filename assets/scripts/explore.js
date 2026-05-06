@@ -12,7 +12,7 @@ function init() {
   const image = document.querySelector('img');
   const playButton = document.querySelector('button');
   playButton.addEventListener('click', textToSpeech);
-  image.src = 'assets/images/smiling.png';
+  //image.src = 'assets/images/smiling.png';
 }
 
 function populateVoiceList() {
